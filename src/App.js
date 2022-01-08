@@ -10,10 +10,10 @@ const App = () => {
 
 
     return (
-        <>
+        <div className="app">
             <Input setTodo={setTodo}/>
             <TodoList todo={todo} />
-        </>
+        </div>
     )
 }
 
